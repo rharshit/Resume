@@ -1,0 +1,6 @@
+PWD /Users/hraghuva/Google Drive/sync/Resume_latex/Base/sample
+INPUT /usr/local/texlive/2020/texmf.cnf
+INPUT /usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT /Users/hraghuva/Google Drive/sync/Resume_latex/Base/sample/sample.tex
+OUTPUT /Users/hraghuva/Google Drive/sync/Resume_latex/Base/sample/sample.log
