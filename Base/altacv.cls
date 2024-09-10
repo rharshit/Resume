@@ -108,8 +108,8 @@
 \usetikzlibrary{arrows}
 \RequirePackage[skins]{tcolorbox}
 \RequirePackage{enumitem}
-\setlist{leftmargin=*,labelsep=0.5em,nosep,itemsep=0.25\baselineskip,after=\vskip0.25\baselineskip}
-\setlist[itemize]{label=\itemmarker}
+\setlist{leftmargin=*,labelsep=.5em,nosep,after=\vskip0pt}
+\setlist[itemize]{label=\itemmarker,itemsep=0pt,topsep=0pt}
 \RequirePackage{graphicx}
 \RequirePackage{etoolbox}
 \RequirePackage{dashrule}
@@ -171,7 +171,7 @@
       \tikz\path[fill overzoom image={\@photo}]circle[radius=0.5\linewidth];
     \fi%
     \end{minipage}\par}{}%
-  \endgroup\medskip
+  \endgroup
 }
 
 \renewenvironment{quote}{\color{accent}\itshape\large}{\par}
@@ -179,8 +179,8 @@
 \newcommand{\cvsection}[2][]{%
   \bigskip%
   \ifstrequal{#1}{}{}{\marginpar{\vspace*{\dimexpr1pt-\baselineskip}\raggedright\input{#1}}}%
-  {\color{heading}\LARGE\bfseries{#2}}\\[-1ex]%
-  {\color{heading}\rule{\linewidth}{2pt}\par}\medskip
+  {\color{heading}\Large\bfseries{#2}}\\[-1ex]%
+  {\color{heading}\rule{\linewidth}{1pt}\par}
 }
 
 \newcommand{\cvsubsection}[1]{%
@@ -341,8 +341,8 @@
 
 \newcommand{\eventsubheader}[2]{%
   \ifblank{#1}{}{
-  \textbf{\color{accent}#1}
-  \smallskip}
+  \smallskip
+  \textbf{\color{accent}#1}}
   \ifstrequal{#1}{}{}{
     {\small\makebox[0.5\linewidth][l]{\hspace{0.5em}#2}}
     }%
