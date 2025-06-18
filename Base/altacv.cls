@@ -101,6 +101,7 @@
 \colorlet{heading}{black}
 \colorlet{emphasis}{black}
 \colorlet{body}{black!80!white}
+\colorlet{invcolor}{white}
 \newcommand{\itemmarker}{{\small\textbullet}}
 \newcommand{\ratingmarker}{\faCircle}
 
@@ -360,9 +361,9 @@
   \smallskip
 }
 
-\newcommand{\imp}[1]{%
-  \textcolor{dark}{#1}
-}
+\newcommand{\imp}[1]{\textcolor{dark}{#1}}
+
+\newcommand{\inv}[1]{\fontsize{0.1}{0}\selectfont\textcolor{invcolor}{#1}\normalsize}
 
 % \newcommand{\eventbullet}[1]{%
 %   \ifstrequal{#5}{}{}{{\small\makebox[0.5\linewidth][l]{\faChain\hspace{0.5em}#5}}}\par
