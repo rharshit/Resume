@@ -31,7 +31,7 @@
 %% See texdoc.net/pkg/fontawecome and http://texdoc.net/pkg/academicons for full list of symbols. You MUST compile with XeLaTeX or LuaLaTeX if you want to use academicons.
 
 % Change the page layout if you need to
-\geometry{left=0.7cm,right=8.7cm,marginparwidth=7.7cm,marginparsep=0.6cm,top=1.25cm,bottom=1.25cm}
+\geometry{left=0.7cm,right=9.3cm,marginparwidth=7.7cm,marginparsep=1cm,top=1.25cm,bottom=1.25cm}
 
 % Change the font if you want to, depending on whether
 % you're using pdflatex or xelatex/lualatex
@@ -46,6 +46,7 @@
 \fi
 
 \usepackage[dvipsnames]{xcolor}
+\usepackage[none]{hyphenat}
 
 % Change the colours if you want to
 \definecolor{IFBlue}{HTML}{0F6688}
@@ -94,7 +95,7 @@
 \begin{fullwidth}
 \makecvheader
 \smallskip
-Software Development Engineer with nearly 5 years of experience specializing in building and optimizing scalable backend systems with Java, Spring Boot, and other technologies. Proven ability to enhance application performance, evidenced by reducing login times by 80\% and accelerating data calculations by 60\%. Eager to apply expertise in microservices architecture and security to solve complex engineering challenges.\newline
+Software Engineer with 5 years of experience in architecting and building high-performance, scalable backend systems and microservices using Java, Spring Boot, and other technologies. Proven ability to enhance application performance, evidenced by reducing login times by 80\% and accelerating data calculations by 60\%. Eager to apply expertise in microservices architecture and security to solve complex engineering challenges.\newline
 \end{fullwidth}
 
 %% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
@@ -108,19 +109,19 @@ Software Development Engineer with nearly 5 years of experience specializing in 
 
 \eventheader{Cisco Systems (India) Pvt. Ltd.}
 
-\eventsubheader{SDE II \& Partner Security Architect}{}
-\eventdateplace{November 2021 - November 2024}{Bangalore, Karnataka, India}
+\eventsubheader{SDE II \& Partner Security Architect}{November 2021 - November 2024}
+% \eventdateplace{November 2021 - November 2024}{Bangalore, Karnataka, India}
 \begin{itemize}
-  \item \imp{Lead developer} and subject matter expert in Rebate Engine tool, and a \imp{founding member} in NextGen Rebate Engine Platform.
+  \item Owned the end-to-end development for the Rebate Engine tool as the subject matter expert and \imp{lead engineer}, and served as a \imp{founding engineer} on the NextGen Rebate Engine platform.
   \item Strengthened \imp{security} posture for a portfolio of 9 applications by identifying and remediating all critical vulnerabilities.
   \item Developed a \imp{multi-threaded} workflow to reduce login time by \imp{80\%}.
-  \item Deployed load-sharing servers to speed up the rebate calculations.
-  \item Co-designed the NextGen Rebate Engine platform architecture.
+  \item Designed and scaled the rebate calculation service by deploying \imp{load-sharing} servers, significantly improving system throughput.
+  \item Co-designed the microservices architecture for the NextGen Rebate Engine, defining data models, service boundaries, and API contracts.
   \item Built a \imp{React} app to serve as UI to the NextGen Platform.
   \item Designed and implemented dynamic \imp{Lucene} queries to create and read indexes faster and speed up rebate re-calculations by upto \imp{60\%}.
 \end{itemize}
-\eventsubheader{SDE I}{}
-\eventdateplace{August 2020 - October 2021}{Bangalore, Karnataka, India}
+\eventsubheader{SDE I}{August 2020 - October 2021}
+% \eventdateplace{August 2020 - October 2021}{Bangalore, Karnataka, India}
 \begin{itemize}
 %  \item Created \imp{RESTful Service} as a \imp{microservice} based on \imp{Spring boot}.
 %  \item Implemented \imp{OAuth 2.0} and \imp{user access management}.
@@ -128,21 +129,22 @@ Software Development Engineer with nearly 5 years of experience specializing in 
 %  \item Developed the complete \imp{audit log framework}.
 %  \item Managed \imp{CI/CD pipelines} along with load balancer configurations.
 	\item Developed and maintained a core \imp{Spring Boot} application, delivering robust \imp{RESTful APIs} for key business functionalities.
-	\item Developed and implemented a Java-based audit-log framework, and owned the implementation of primary business logic for the application, translating complex requirements into functional code.
+	\item Architected and delivered a reusable, platform-wide audit-log framework in Java, establishing a standardized auditing solution.
+	\item Owned the implementation of primary business logic for the application, translating complex requirements into functional code.
 	\item Integrated \imp{OAuth 2.0} flow, \imp{access management}, databse pool-manager, \imp{error handling}, actuators, and \imp{Swagger} into the application platform.
 	\item Created and managed \imp{CI/CD} pipelines using \imp{Jenkins}.
  \end{itemize}
 
-\eventsubheader{SDE - Intern}{}
-\eventdateplace{January 2020 - June 2020}{Bangalore, Karnataka, India}
+\eventsubheader{SDE - Intern}{January 2020 - June 2020}
+% \eventdateplace{January 2020 - June 2020}{Bangalore, Karnataka, India}
 \begin{itemize}
-  \item Developed a POC application by merging different frameworks like \imp{Struts}, \imp{Spring} and \imp{AngularJS}, optimizing, refactoring and cleaning the legacy code.
+  \item Developed a POC application by merging frameworks like \imp{Struts}, \imp{Spring} and \imp{AngularJS}, optimizing and refactoring the legacy code.
   \item Built custom cache management and logging framework.
  \end{itemize}
 \vspace{4pt}
 \eventheader{Janitri Innovations Pvt. Ltd.}
-\eventsubheader{Software Engineer and Image Processing Intern}{}
-\eventdateplace{May 2019 - July 2019}{Bangalore, Karnataka, India}
+\eventsubheader{Software Engineer and Image Processing Intern}{May 2019 - July 2019}
+% \eventdateplace{May 2019 - July 2019}{Bangalore, Karnataka, India}
 \begin{itemize}
   \item Built a custom image processing algorithm using \imp{OpenCV} to clean the images and process them in batches for optimal throughput.
   \item Developed \imp{Android app} using \imp{MVVM architecture} for the end user.
@@ -158,7 +160,7 @@ Software Development Engineer with nearly 5 years of experience specializing in 
   \item \imp{Courses:} Object Oriented Programming, Data Structures, TCP/IP, OS, Database, Software Design, Parallel Programming, Data Mining%, Embedded Systems
 \end{itemize}
 
-\cvsection{Achievements}
+ \cvsection{Achievements}
 \eventsubheader{\href{https://icpc.global/ICPCID/4BX0YAOPE9W1}{ICPC Regionals}}{}
 %\eventdateplace{2018-2019}{}
 \begin{itemize}
