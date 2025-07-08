@@ -178,7 +178,7 @@
 \renewenvironment{quote}{\color{accent}\itshape\large}{\par}
 
 \newcommand{\cvsection}[2][]{%
-  \vspace{6pt}%
+  \vspace{10pt}%
   \ifstrequal{#1}{}{}{\marginpar{\vspace*{\dimexpr1pt-\baselineskip}\raggedright\input{#1}}}%
   {\color{heading}\Large\bfseries{#2}}\\[-1ex]%
   {\color{heading}\rule{\linewidth}{1pt}\par}
@@ -336,7 +336,7 @@
 }
 
 \newcommand{\eventheader}[1]{%
-  {\large\color{emphasis}\textbf{#1}\par\smallskip}
+  {\large\color{emphasis}\textbf{#1}\par}
   \normalsize
 }
 
