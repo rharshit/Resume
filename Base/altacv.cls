@@ -131,6 +131,7 @@
 \newcommand{\phonesymbol}{\faPhone}
 \newcommand{\homepagesymbol}{\faChain}
 \newcommand{\locationsymbol}{\faMapMarker}
+\newcommand{\linksymbol}{\faLink}
 \newcommand{\linkedinsymbol}{\faLinkedin}
 \newcommand{\twittersymbol}{\faTwitter}
 \newcommand{\githubsymbol}{\faGithub}
@@ -364,6 +365,8 @@
 \newcommand{\imp}[1]{\textcolor{dark}{#1}}
 
 \newcommand{\inv}[1]{\fontsize{0.1}{0}\selectfont\textcolor{invcolor}{#1}\normalsize}
+
+\newcommand{\superscript}[1]{\fontsize{6}{0}\selectfont\raise0.5ex\hbox{#1}\normalsize}
 
 % \newcommand{\eventbullet}[1]{%
 %   \ifstrequal{#5}{}{}{{\small\makebox[0.5\linewidth][l]{\faChain\hspace{0.5em}#5}}}\par
